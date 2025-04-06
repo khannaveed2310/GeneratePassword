@@ -1,21 +1,21 @@
-*{
+* {
     border: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     background: #002339;
     color: #fff;
-}
-
-.container{
-    margin: 12%;
-    width: 90%;
+  }
+  
+  .container {
+    margin: 6%;
+    width: 100%;
     max-width: 700px;
-}
-
-.display{
+  }
+  
+  .display {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -26,40 +26,37 @@ body {
     align-items: center;
     padding: 20px 20px;
     border-radius: 10px;
-}
-
-.container h1{
+  }
+  
+  .container h1 {
     font-weight: 500;
     font-size: 45px;
-}
-
-.container span{
+  }
+  
+  .container span {
     /* font-size: 70px; */
     border-bottom: 4px solid #019f55;
     color: #019f55;
     padding: 10px;
-    
-    
-}
-
-.display img{
+  }
+  
+  .display img {
     width: 50px;
     cursor: pointer;
-}
-
-.display input{
+  }
+  
+  .display input {
     border: 0;
     outline: 0;
     font-size: 24px;
-
-}
-
-.container button img{
+  }
+  
+  .container button img {
     width: 30px;
     margin-right: 10px;
-}
-
-.container button{
+  }
+  
+  .container button {
     border: 0;
     outline: 0;
     background: #009c53;
@@ -72,5 +69,45 @@ body {
     padding: 16px 26px;
     border-radius: 10px;
     cursor: pointer;
-    
-}
+  }
+  
+  .length-control {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+  }
+  
+  .length-control label {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .length-control input[type="number"] {
+    width: 60px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .length-control input[type="number"]:focus {
+    border: 2px solid #00cc99;
+    background-color: #fff;
+  }
+  
+  .subtitle {
+    font-size: 28px;
+    color: #ccc;
+    margin-top: -2px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
